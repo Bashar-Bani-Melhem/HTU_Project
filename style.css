@@ -1,0 +1,84 @@
+*{
+    font-family: 'Dosis', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-direction: column;
+    background:#9e89b8 url('city.jpg');
+    background-blend-mode: luminosity;
+    background-attachment: fixed;
+    background-size: 100% 100% ;
+    overflow: hidden;
+    
+    
+}
+
+    
+header{
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-basis: 74px;
+    flex-grow: 0;
+    position: sticky;
+    top: 0;
+    
+}
+a{
+    text-decoration:none;
+    color: black;
+    
+}
+ul{
+    list-style: none;
+    
+}
+li{
+    display:inline-block;
+    padding: 12px;
+}
+.button1{
+    font-size: 18px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 3px;
+    
+}
+
+main{
+    
+    display: flex;
+    padding-left: 100px;
+    flex-basis: 535px;
+    flex-grow: 1;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+}
+
+.con{
+    color:#ffffff;
+    align-items: center;
+    width: 450px;
+}
+footer{
+    display: flex;
+    background-color: #f2f2f2;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    flex-basis: 50px;
+    flex-grow: 0;
+    position: sticky;
+    bottom: 0;
+}
+i{
+    margin: 5px;
+    size: 20px;
+}
